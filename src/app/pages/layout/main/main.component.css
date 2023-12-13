@@ -1,0 +1,22 @@
+.body-wrapper{
+    background: rgba(192, 204, 218, 0.3);
+    height: 100vh;
+    padding-top: 5rem;
+    overflow-y: scroll;
+}
+
+@media (max-width: 1024px){
+    .main-wrapper{
+        padding-left: 70px !important;
+    }
+}
+@media(max-width: 991px){
+    .main-wrapper{
+        padding-left: 70px !important;
+    }
+}
+@media(max-width: 751px){
+    .main-wrapper{
+        padding-left: 0px !important;
+    }
+}
